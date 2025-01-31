@@ -1,13 +1,14 @@
-import Image from "next/image";
-import EquipmentScroller from "./components/EquipmentScroller";
+import EquipmentCarousel from "@/components/EquipmentCarousel";
 
-export default function Home() {
-  return (
-    <div>
-      <div className="hero bg-primary text-white text-center py-20">
-        <h1 className="text-4xl font-bold">Welcome to Equipment Rentals</h1>
-      </div>
-      <EquipmentScroller />
-    </div>
-  );
+async function getEquipment() {
+  const response = await fetch("http://localhost:4000/equipment");
+  if (!response.ok) {
+    throw new Error("Failed to fetch equipment");
+  }
+  return response.json();
+}
+
+export default async function Home() {
+  const equipment = await getEquipment();
+  return <EquipmentCarousel equipment={equipment} />;
 }

@@ -2,18 +2,18 @@
   "equipment": [
     {
       "id": 1,
-      "name": "Mountain Bike",
+      "name": "14' Hobie Wave Sailboat",
       "category": "Summer Rentals",
-      "sub_category": "Biking",
+      "sub_category": "Watersport",
       "tracking_method": "individual",
       "items": [
         { "id": "MB-001", "availability": true },
         { "id": "MB-002", "availability": false }
       ],
-      "price_per_day": 25.0,
-      "price_per_hour": 5.0,
-      "description": "A durable mountain bike suitable for rugged terrains.",
-      "image": "/images/mountain-bike.jpg"
+      "price_per_day": 120,
+      "price_per_hour": 45,
+      "description": "This was the first sports catamaran.",
+      "image": "/hobie.jpg"
     },
     {
       "id": 2,
@@ -22,10 +22,10 @@
       "sub_category": "Water Sports",
       "tracking_method": "quantity",
       "quantity_available": 5,
-      "price_per_day": 30.0,
-      "price_per_hour": 6.0,
+      "price_per_day": 6.0,
+      "price_per_hour": 30.0,
       "description": "A single-person kayak with paddle included.",
-      "image": "/images/kayak.jpg"
+      "image": "kayak.jpg"
     },
     {
       "id": 3,
@@ -34,10 +34,10 @@
       "sub_category": "Camping",
       "tracking_method": "quantity",
       "quantity_available": 2,
-      "price_per_day": 20.0,
-      "price_per_hour": 4.0,
+      "price_per_day": 4.0,
+      "price_per_hour": 20.0,
       "description": "Spacious 4-person tent with rain cover and stakes.",
-      "image": "/images/tent.jpg"
+      "image": "/tent.jpg"
     },
     {
       "id": 4,
@@ -49,10 +49,10 @@
         { "id": "HB-101", "availability": true },
         { "id": "HB-102", "availability": true }
       ],
-      "price_per_day": 15.0,
-      "price_per_hour": 3.0,
+      "price_per_day": 3.0,
+      "price_per_hour": 15.0,
       "description": "Lightweight hiking backpack with hydration pack.",
-      "image": "/images/hiking-backpack.jpg"
+      "image": "/hiking-backpack.jpg"
     },
     {
       "id": 5,
@@ -64,10 +64,10 @@
         { "id": "SB-500", "availability": true },
         { "id": "SB-501", "availability": false }
       ],
-      "price_per_day": 40.0,
-      "price_per_hour": 8.0,
+      "price_per_day": 8.0,
+      "price_per_hour": 40.0,
       "description": "High-performance snowboard for all skill levels.",
-      "image": "/images/snowboard.jpg"
+      "image": "/snowboard.jpg"
     },
     {
       "id": 6,
@@ -76,10 +76,10 @@
       "sub_category": "Winter Sports",
       "tracking_method": "quantity",
       "quantity_available": 3,
-      "price_per_day": 35.0,
-      "price_per_hour": 7.0,
+      "price_per_day": 7.0,
+      "price_per_hour": 35.0,
       "description": "Complete ski set including boots and poles.",
-      "image": "/images/ski-set.jpg"
+      "image": "/ski-set.jpg"
     },
     {
       "id": 7,
@@ -88,10 +88,10 @@
       "sub_category": "Fishing",
       "tracking_method": "quantity",
       "quantity_available": 4,
-      "price_per_day": 10.0,
-      "price_per_hour": 2.5,
+      "price_per_day": 2.5,
+      "price_per_hour": 10.0,
       "description": "High-quality fishing rod for a great catch.",
-      "image": "/images/fishing-rod.jpg"
+      "image": "/fishing-rod.jpg"
     },
     {
       "id": 8,
@@ -100,10 +100,10 @@
       "sub_category": "Camping",
       "tracking_method": "quantity",
       "quantity_available": 6,
-      "price_per_day": 12.0,
-      "price_per_hour": 3.0,
+      "price_per_day": 3.0,
+      "price_per_hour": 12.0,
       "description": "Portable camping stove for outdoor cooking.",
-      "image": "/images/camping-stove.jpg"
+      "image": "/camping-stove.jpg"
     },
     {
       "id": 9,
@@ -112,10 +112,10 @@
       "sub_category": "Water Sports",
       "tracking_method": "quantity",
       "quantity_available": 2,
-      "price_per_day": 28.0,
-      "price_per_hour": 5.5,
+      "price_per_day": 5.5,
+      "price_per_hour": 28.0,
       "description": "Inflatable paddleboard with paddle included.",
-      "image": "/images/paddleboard.jpg"
+      "image": "/paddleboard.jpg"
     },
     {
       "id": 10,
@@ -124,10 +124,10 @@
       "sub_category": "Climbing",
       "tracking_method": "quantity",
       "quantity_available": 3,
-      "price_per_day": 50.0,
-      "price_per_hour": 10.0,
+      "price_per_day": 10.0,
+      "price_per_hour": 50.0,
       "description": "Complete climbing gear set with harness and helmet.",
-      "image": "/images/climbing-gear.jpg"
+      "image": "/climbing-gear.jpg"
     }
   ]
 }
